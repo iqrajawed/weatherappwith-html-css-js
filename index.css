@@ -1,0 +1,40 @@
+:root{
+    --primary-color:hsl(160, 65%, 49%);
+    --primary-color-light:hsl(44, 48%, 67%);
+    --secondary-color:hsl(327, 85%, 29%);
+    
+
+}
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font: 1em serif;
+    background-color: var(--primary-color-light);
+}
+#box{
+    width: 35%;
+    height: 65%;
+    background-color: var(--primary-color);
+    margin: 200px 450px;
+    padding: 50px 100px;
+}
+h1{
+    margin: 20px 50px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: var(--secondary-color);
+}
+#search input{
+    width: 65%;
+    height: 20%;
+    color: var(--secondary-color);
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-left: 5%;
+}
+#searchbtn{
+    width: 30%;
+    height:30px;
+    color: var(--secondary-color);
+}
